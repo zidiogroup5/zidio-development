@@ -1,0 +1,82 @@
+.foot {
+    background-color: #00194C;
+    position: absolute;
+    width: 100%;
+    color: #ffff;
+    padding: 70px 0 30px 0;
+    margin-top: 20px;
+}
+
+.foot-brand-logo {
+    height: 50px;
+    width: 170px;
+    margin-bottom: 30px;
+}
+
+.foot-brand-text {
+    line-height: 25px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.foot-list-head {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.foot-list-item {
+    color: #ffff;
+    line-height: 45px;
+    text-decoration: none;
+}
+
+.foot-list-item:hover {
+    color: #1976D2;
+}
+
+.foot-list-para {
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+
+.hline {
+    opacity: 0.3;
+    margin: 70px 0 30px 0;
+}
+
+/* .foot-list-head::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #1976D2;
+}  */
+
+.contact-head {
+    padding-top: 30px;
+}
+
+.contact-list-icons {
+    display: flex;
+}
+
+.contact-list-icon {
+    color: #ffff;
+    opacity: 0.5;
+    margin: 20px 10px 0 0;
+}
+
+.contact-list-icon:hover {
+    opacity: 10;
+}
+
+.copyright-text {
+    text-align: end;
+    opacity: 0.5;
+}
+
+
