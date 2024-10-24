@@ -1,8 +1,228 @@
 * {
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     padding: 0;
     margin: 0;
 }
 
-/* font-family: "Playwrite DE Grund", cursive; */
+h1 {
+    padding-top: 10px;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+.home_obj {
+    background-color: #F3F7FD;
+    padding-bottom: 70px;
+}
+
+.feature_icon {
+    border-radius: 30% 70% 70% 30% / 34% 44% 56% 66%;
+    background-color: #F3F7FD;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.feature_des::after {
+    position: absolute;
+    content: "";
+    background-color: #1976D2;
+    height: 2px;
+    width: 30px;
+    left: 170px;
+    bottom: 40px;
+}
+
+/* .feature_des:hover::after {
+    background-color: #ffff;
+} */
+
+.carousel_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.process_img {
+    border: 2px #FE6021 dashed;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 50px 0 20px 0;
+}
+
+.home_container {
+    color: #ffff;
+    width: 100%;
+    background-color: #00A3FF;
+    /* background: radial-gradient(circle, rgba(218, 154, 182, 1) 0%, rgba(147, 84, 238, 1) 48%, rgba(78, 111, 150, 1) 100%); */
+}
+
+.home_cards {
+    background-color: #00A3FF;
+    /* background: radial-gradient(circle, rgba(218, 154, 182, 1) 0%, rgba(147, 84, 238, 1) 48%, rgba(78, 111, 150, 1) 100%); */
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.home_card_item {
+    padding: 50px 0;
+}
+
+.slick-slide>div {
+    margin: 0 15px;
+    height: 100%;
+}
+
+.about_img {
+    padding: 10px 15px;
+    background-color: #ffff;
+    border-radius: 30%;
+    margin-right: 15px;
+}
+
+.home_card_icon {
+    border-radius: 50%;
+    background-color: #ffff;
+    padding: 10px;
+    width: 70px;
+}
+
+/* .team_card {
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F3F7FD;
+    box-shadow: none;
+} */
+
+.team_bg {
+    height: 210px;
+    width: 230px;
+    position: absolute;
+    z-index: 0;
+    transform: rotate(25deg);
+}
+
+.team_img {
+    height: 210px;
+    width: 230px;
+    position: relative;
+    z-index: 1;
+}
+
+.enquiry {
+    max-width: "350px";
+    align-items: center;
+    background-color: #ffff;
+    display: flex;
+    padding: 25px 20px;
+    border: 1px solid #1976D2;
+    border-radius: 5px;
+}
+
+.btn::before {
+    background-color: #FE6021;
+    color: #ffff;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+
+.btn:hover::before {
+    height: 380%;
+}
+
+.enquiry_content {
+    margin-left: 20px;
+    line-height: 1.75;
+}
+
+.name {
+    padding-top: 20px;
+}
+
+.custom-carousel-item {
+    width: 60%;
+    margin: 0 auto;
+    /* Center the content */
+}
+
+/* .testi {
+    background: radial-gradient(circle, #4f46e4 10%, transparent 11%), radial-gradient(circle at bottom left, #4f46e4 5%, transparent 6%), radial-gradient(circle at bottom right, #4f46e4 5%, transparent 6%), radial-gradient(circle at top left, #4f46e4 5%, transparent 6%), radial-gradient(circle at top right, #4f46e4 5%, transparent 6%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1
+} */
+
+/* SERVICES COMPONENT */
+
+.services-section {
+    background-color: #F3F7FD;
+}
+
+.services {
+    padding: 100px 0 150px;
+    margin-bottom: 100px;
+    background: rgb(0, 163, 255);
+    background: linear-gradient(90deg, rgba(0, 163, 255, 1) 31%, rgba(27, 145, 219, 1) 57%, rgba(44, 134, 197, 1) 66%);
+}
+
+
+.service-head {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffff;
+}
+
+/* .services-head::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #FE6021;
+    position: absolute;
+} */
+
+.service-card-qn {
+    opacity: 0.8;
+}
+
+.service-card-ans {
+    padding-bottom: 60px;
+    color: #00194C;
+}
+
+.service-card-section {
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-card-img {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 40% 10% 40% 10%;
+    background-color: #F3F7FD;
+}
+
+.service-bottom-section {
+    background-color: #aacae7;
+    padding: 100px 0 200px 0;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='36' height='36' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%239dc8f1ff'/><path d='M3.86 18.709a5.457 5.457 0 0 1-7.72 0l-14.848-14.85a5.458 5.458 0 0 1 0-7.719L-3.86-18.708a5.459 5.459 0 0 1 7.719 0L18.708-3.86a5.458 5.458 0 0 1 0 7.72zm36 0a5.457 5.457 0 0 1-7.72 0L17.292 3.859a5.458 5.458 0 0 1 0-7.719L32.14-18.708a5.459 5.459 0 0 1 7.72 0L54.707-3.86a5.458 5.458 0 0 1 0 7.72zm-36 36a5.457 5.457 0 0 1-7.72 0l-14.848-14.85a5.458 5.458 0 0 1 0-7.719L-3.86 17.292a5.458 5.458 0 0 1 7.719 0L18.708 32.14a5.458 5.458 0 0 1 0 7.72zm36 0a5.457 5.457 0 0 1-7.72 0l-14.848-14.85a5.458 5.458 0 0 1 0-7.719L32.14 17.292a5.458 5.458 0 0 1 7.72 0L54.707 32.14a5.458 5.458 0 0 1 0 7.72z'  stroke-width='1' stroke='%23ffffff27' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.subscribe-text {
+    color: #00194C;
+}

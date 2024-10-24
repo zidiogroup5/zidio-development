@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "bgImg": "../src/assets/bgBlob.png",
+        "img": "../src/assets/team/animesh.png",
+        "title": "Animesh Singh",
+        "description": "Full Stack Web Developer"
+    },
+    {
+        "id": 2,
+        "bgImg": "../src/assets/bgBlob.png",
+        "img": "../src/assets/team/salma.png",
+        "title": "Salma Husna Salsabila",
+        "description": "UI/UX Designer"
+    },
+    {
+        "id": 3,
+        "bgImg": "../src/assets/bgBlob.png",
+        "img": "../src/assets/team/chandan.png",
+        "title": "Chandan Mishra",
+        "description": " Data Scientist "
+    },
+    {
+        "id": 3,
+        "bgImg": "../src/assets/bgBlob.png",
+        "img": "../src/assets/team/harsa.png",
+        "title": "Harsa Dash",
+        "description": "Developer Team Lead"
+    }
+]

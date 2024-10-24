@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "icon": "../src/assets/service/service-1.png",
+        "title": "Graphic Design",
+        "description": "Monotonectally synergize grants to business visualize strategic infomediaries"
+    },
+    {
+        "id": "2",
+        "icon": "../src/assets/service/service-2.png",
+        "title": "Cloud Solutions",
+        "description": "Deliver scalable cloud solutions to enhance your business’s flexibility and operational efficiency."
+    },
+    {
+        "id": "3",
+        "icon": "../src/assets/service/service-3.png",
+        "title": "Web Development",
+        "description": "Design and build responsive, high-performance websites using the latest web technologies."
+    },
+    {
+        "id": "4",
+        "icon": "../src/assets/service/service-4.png",
+        "title": "Digital Marketing",
+        "description": "Boost your online presence with tailored digital marketing strategies that drive engagement and growth."
+    },
+    {
+        "id": "5",
+        "icon": "../src/assets/service/service-5.png",
+        "title": "3D Vector Illustration",
+        "description": "Monotonectally synergize grants to business visualize strategic infomediaries"
+    },
+    {
+        "id": "6",
+        "icon": "../src/assets/service/service-6.png",
+        "title": "Hosting Services",
+        "description": "Websites are hosted on a network of servers in the cloud, offering scalability, flexibility, and reliability."
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "img": "../src/assets/s/s-icon-1.png",
+        "title": "Cloud Services",
+        "description": "Deliver scalable cloud solutions to enhance your business’s flexibility and operational efficiency."
+    },
+    {
+        "id": "2",
+        "img": "../src/assets/s/s-icon-2.png",
+        "title": "IT Management",
+        "description": "Provide comprehensive IT infrastructure management to ensure smooth and uninterrupted business operations."
+    },
+    {
+        "id": "3",
+        "img": "../src/assets/s/s-icon-3.png",
+        "title": "Software Development",
+        "description": "Manage and streamline software renewals, ensuring your systems are always up-to-date and secure."
+    },
+    {
+        "id": "4",
+        "img": "../src/assets/s/s-icon-4.png",
+        "title": "Machine Learning",
+        "description": "Develop and implement machine learning models to automate processes and drive intelligent decision-making."
+    },
+    {
+        "id": "5",
+        "img": "../src/assets/s/s-icon-5.png",
+        "title": "Digital Marketing",
+        "description": "Boost your online presence with tailored digital marketing strategies that drive engagement and growth."
+    },
+    {
+        "id": "6",
+        "img": "../src/assets/s/s-icon-1.png",
+        "title": "Web Developement",
+        "description": "Design and build responsive, high-performance websites using the latest web technologies."
+    },
+    {
+        "id": "7",
+        "img": "../src/assets/s/s-icon-7.png",
+        "title": "Cyber Security",
+        "description": "Safeguard your digital assets with robust cybersecurity solutions tailored to protect against emerging threats."
+    },
+    {
+        "id": "8",
+        "img": "../src/assets/s/s-icon-8.png",
+        "title": "Data Analytics",
+        "description": "Transform raw data into valuable insights, enabling informed and strategic business decisions."
+    }
+]

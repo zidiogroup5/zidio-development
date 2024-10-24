@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "../src/assets/feature/feature-icon1.png",
+        "title": "3+ Year Experience",
+        "description": "Over 3 years of expertise delivering unparalleled solutions and insights for your success"
+    },
+    {
+        "id": 2,
+        "img": "../src/assets/feature/feature-icon2.png",
+        "title": "Dedicated Members",
+        "description": "Passionate team members dedicated to exceeding expectations and achieving mutual success"
+    },
+    {
+        "id": 3,
+        "img": "../src/assets/feature/feature-icon3.png",
+        "title": "Valuable Supports",
+        "description": "Tailored support and guidance ensuring reliability and innovation every step of the way"
+    }
+]
